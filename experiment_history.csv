@@ -1,0 +1,81 @@
+Experiment_ID,Timestamp,Question,Category,Variant,Prompt,Expected_Answer,Model_Response,Correct,Score
+d87044ad,2026-10-28T16:39:30,What is the capital of Japan?,Custom,Original,What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+ba7b99f3,2026-10-28T16:39:33,What is the capital of Japan?,Custom,Instruction Added,Please answer the following question clearly: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+255a299a,2026-10-28T16:39:35,What is the capital of Japan?,Custom,Direct Instruction,Provide a direct and accurate answer to this question: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+9dbea58c,2026-10-28T16:39:42,What is the capital of Japan?,Custom,Detailed Instruction,Read the question carefully and explain your answer step by step: What is the capital of Japan?,Tokyo,"To determine the capital of Japan, let's follow these steps:
+
+1. **Identify the country**: The question is specifically about Japan. Japan is a country located in East Asia, known for its rich culture, technology, and natural beauty.
+
+2. **Recall capital city information**: The capital city of a country is typically the city where the government of that country is located. For Japan, this is a well-known fact.
+
+3. **Recall the capital city of Japan**: The capital city of Japan is Tokyo.
+
+4. **Verify the information**: Tokyo is indeed the capital city of Japan. It is the largest city in Japan and serves as the country's political, economic, and cultural center.
+
+By following these steps, we can confidently state that the capital of Japan is Tokyo.",True,1
+1f779a68,2026-10-28T16:39:45,What is the capital of Japan?,Custom,Concise Instruction,Answer briefly and precisely: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+211edb01,2026-10-28T16:39:48,What is the capital of Japan?,Custom,Typos Introduced,What is the capitall of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+2eb6df78,2026-10-28T16:43:17,What is the capital of Japan?,Custom,Original,What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+23c09ed2,2026-10-28T16:43:19,What is the capital of Japan?,Custom,Instruction Added,Please answer the following question clearly: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+e907f6fb,2026-10-28T16:43:22,What is the capital of Japan?,Custom,Direct Instruction,Provide a direct and accurate answer to this question: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+7aea2c9a,2026-10-28T16:43:29,What is the capital of Japan?,Custom,Detailed Instruction,Read the question carefully and explain your answer step by step: What is the capital of Japan?,Tokyo,"To determine the capital of Japan, let's follow these steps:
+
+1. **Identify the country**: The question is specifically about Japan. Japan is a country located in East Asia, known for its rich culture, technology, and natural beauty.
+
+2. **Recall capital city information**: The capital city of a country is typically the city where the government of that country is located. For Japan, this is a well-known fact.
+
+3. **Recall the capital city of Japan**: The capital city of Japan is Tokyo.
+
+4. **Verify the information**: Tokyo is indeed the capital city of Japan. It is the largest city in Japan and serves as the country's political, economic, and cultural center.
+
+By following these steps, we can confidently state that the capital of Japan is Tokyo.",True,1
+36d43232,2026-10-28T16:43:31,What is the capital of Japan?,Custom,Concise Instruction,Answer briefly and precisely: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+34010641,2026-10-28T16:43:34,What is the capital of Japan?,Custom,Typos Introduced,What is the capitall of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of France?,Geography,Original,What is the capital of France?,Paris,The capital of France is Paris.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of France?,Geography,Instruction Added,Please answer the following question clearly: What is the capital of France?,Paris,The capital of France is Paris.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of France?,Geography,Direct Instruction,Provide a direct and accurate answer to this question: What is the capital of France?,Paris,The capital of France is Paris.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of France?,Geography,Detailed Instruction,Read the question carefully and explain your answer step by step: What is the capital of France?,Paris,"To determine the capital of France, let's follow these steps:
+
+1. **Identify the country**: The question is specifically asking about France. France is a country located in Western Europe.
+
+2. **Recall capital city information**: The capital city of a country is typically the city where the government of that country is located. For France, this is a well-known fact.
+
+3. **Recall the capital city of France**: The capital city of France is Paris.
+
+4. **Verify the information**: It's important to double-check this information. Paris is indeed the capital city of France and is known for its rich history, culture, and art.
+
+Therefore, the capital of France is Paris.",True,1
+c3674372,2026-10-28T16:43:36,What is the capital of France?,Geography,Concise Instruction,Answer briefly and precisely: What is the capital of France?,Paris,Paris,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of France?,Geography,Typos Introduced,What is the capitall of France?,Paris,The capital of France is Paris.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Japan?,Geography,Original,What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Japan?,Geography,Instruction Added,Please answer the following question clearly: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Japan?,Geography,Direct Instruction,Provide a direct and accurate answer to this question: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Japan?,Geography,Detailed Instruction,Read the question carefully and explain your answer step by step: What is the capital of Japan?,Tokyo,"To determine the capital of Japan, let's follow these steps:
+
+1. **Identify the country**: The question is specifically about Japan. Japan is a country located in East Asia, known for its rich culture, technology, and natural beauty.
+
+2. **Recall capital city information**: The capital city of a country is typically the city where the government of that country is located. For Japan, this is a well-known fact.
+
+3. **Recall the capital city of Japan**: The capital city of Japan is Tokyo.
+
+4. **Verify the information**: Tokyo is indeed the capital city of Japan. It is the largest city in Japan and serves as the country's political, economic, and cultural center.
+
+By following these steps, we can confidently state that the capital of Japan is Tokyo.",True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Japan?,Geography,Concise Instruction,Answer briefly and precisely: What is the capital of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Japan?,Geography,Typos Introduced,What is the capitall of Japan?,Tokyo,The capital of Japan is Tokyo.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Australia?,Geography,Original,What is the capital of Australia?,Canberra,The capital of Australia is Canberra.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Australia?,Geography,Instruction Added,Please answer the following question clearly: What is the capital of Australia?,Canberra,The capital of Australia is Canberra.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Australia?,Geography,Direct Instruction,Provide a direct and accurate answer to this question: What is the capital of Australia?,Canberra,The capital of Australia is Canberra.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Australia?,Geography,Detailed Instruction,Read the question carefully and explain your answer step by step: What is the capital of Australia?,Canberra,"To determine the capital of Australia, let's follow these steps:
+
+1. **Identify the country**: The question is specifically asking about Australia. Australia is a country located in the Southern Hemisphere, known for its unique wildlife, vast deserts, and beautiful beaches.
+
+2. **Recall capital information**: The capital of a country is typically the city where the government of that country is located. For many countries, this is the city where the national parliament or government buildings are situated.
+
+3. **Recall the capital of Australia**: The capital of Australia is Canberra.
+
+4. **Verify the information**: To ensure accuracy, it's important to note that Canberra was specifically chosen as the capital of Australia in 1908, after a period of debate. It was established as a planned city to serve as the national capital, and it has been the capital since then.
+
+Therefore, the capital of Australia is Canberra.",True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Australia?,Geography,Concise Instruction,Answer briefly and precisely: What is the capital of Australia?,Canberra,The capital of Australia is Canberra.,True,1
+c3674372,2026-10-28T16:43:36,What is the capital of Australia?,Geography,Typos Introduced,What is the capitall of Australia?,Canberra,The capital of Australia is Canberra.,True,1
