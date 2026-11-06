@@ -1,75 +1,110 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PromptForge AI 🚀
+### Intelligent Prompt Engineering & LLM Evaluation Platform
 
-Currently, two official plugins are available:
+PromptForge AI is a full-stack application designed to experiment with prompt engineering strategies and evaluate how changes in prompts influence Large Language Model (LLM) responses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform connects a React frontend, Node.js backend, and Python-based AI service to provide an interactive environment for prompt experimentation and response comparison.
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Prompt Experimentation:** Test prompts using different prompting strategies.
+- **LLM Response Comparison:** Generate and compare responses from an AI model.
+- **Prompt Sensitivity Analysis:** Explore how prompt modifications affect model outputs.
+- **Custom Prompt Testing:** Experiment with user-defined prompts.
+- **Response Evaluation:** Compare generated responses using similarity-based analysis.
+- **Performance Analysis:** Examine response generation time and latency.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Category | Technologies |
+|---|---|
+| Frontend | React, TypeScript, Vite |
+| Backend | Node.js, Express.js |
+| AI Service | Python, FastAPI |
+| Language Model | Ollama, Qwen2.5:3b |
+| Version Control | Git, GitHub |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🏗️ Project Architecture
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+PromptForge-AI/
+│
+├── frontend/       # React application
+│
+├── backend/        # Node.js and Express server
+│
+├── ai_service/     # Python AI service
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ How It Works
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. The user enters a prompt through the frontend.
+2. The backend handles application requests.
+3. The Python AI service communicates with the locally running language model.
+4. The model generates responses based on the selected prompting strategy.
+5. The application displays the generated responses for comparison and evaluation.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 💻 Local Setup
 
+### Prerequisites
+
+- Node.js and npm
+- Python 3.10+
+- Ollama
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/NandiniNagisetti/PromptForge-AI.git
+cd PromptForge-AI
 ```
+
+### 2. Set up the AI model
+
+Install Ollama and download the model:
+
+```bash
+ollama pull qwen2.5:3b
+```
+
+Make sure Ollama is running before using the AI features.
+
+### 3. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Install frontend dependencies
+
+```bash
+cd frontend
+npm install
+```
+
+Start the frontend using the development command configured in its package.json.
+
+### 5. Start the backend services
+
+Install the backend dependencies and start the Node.js and Python services using their respective project configurations.
+
+## 🎯 Project Objective
+
+The objective of PromptForge AI is to explore prompt engineering, understand LLM response behavior, and build an interactive platform for evaluating prompt effectiveness.
+
+## 👩‍💻 Developer
+
+**Nandini Nagisetti**
+
+- GitHub: [NandiniNagisetti](https://github.com/NandiniNagisetti)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/nandini-nandu-89b705372/)
+
+---
+
+*PromptForge AI — Experiment. Evaluate. Improve.*
