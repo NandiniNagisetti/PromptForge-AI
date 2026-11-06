@@ -11,3 +11,6 @@ build/
 !.env.example
 .streamlit/secrets.toml
 *.log
+
+# Local experiment history
+experiment_history*.csv
